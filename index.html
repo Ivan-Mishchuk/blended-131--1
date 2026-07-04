@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YachtJet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet" />
+      <link rel="stylesheet" href="./css/common.css">
   </head>
 
   <body>
@@ -36,14 +43,16 @@
     </header>
 
     <main>
-      <section>
-        <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
-        <p>
-          Experience the freedom and luxury of yachting on the open seas. Choose
-          from our top-of-the-line yachts and embark on an unforgettable journey
-          surrounded by breathtaking views and state-of-the-art amenities.
-        </p>
-        <a href="#rental">Yacht rental</a>
+      <section class="hero">
+        <div class="container hero-contaiger">
+          <h1 class="hero-title">Explore the High Seas with Our Luxury Yacht Rentals</h1>
+          <p class="hero-title-descr">
+            Experience the freedom and luxury of yachting on the open seas. Choose
+            from our top-of-the-line yachts and embark on an unforgettable journey
+            surrounded by breathtaking views and state-of-the-art amenities.
+          </p>
+          <a class="hero-link" href="#rental">Yacht rental</a>
+        </div>
       </section>
 
       <section>
@@ -67,107 +76,112 @@
         />
       </section>
 
-      <section id="yachts">
-        <h2>Choose your dream yacht and sail away into the sunset</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/img yaht 1.webp"
-              alt="img yaht 1"
-              width="345"
-              height="268"
-            />
-            <h3>Arrow</h3>
-            <p>LUXURY YAHTS</p>
-            <ul>
-              <li>
-                <p>LENGTH</p>
-                <span>48m(155ft) </span>
-              </li>
-              <li>
-                <p>BUILDER</p>
-                <span>Admiral</span>
-              </li>
-              <li>
-                <p>BUILT</p>
-                <span>2021</span>
-              </li>
-              <li>
-                <p>GUESTS</p>
-                <span>11 in 5 cabins</span>
-              </li>
-              <li>
-                <p>PRICE</p>
-                <span>€33,500,000</span>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/img yaht 2.webp"
-              alt="img yaht 2"
-              width="345"
-              height="268"
-            />
-            <h3>BENETTI OASIS 40M BO122</h3>
-            <p>LUXURY YAHTS</p>
-            <ul>
-              <li>
-                <p>LENGTH</p>
-                <span>41m (133ft)</span>
-              </li>
-              <li>
-                <p>SHIPYARD</p>
-                <span>Benetti</span>
-              </li>
-              <li>
-                <p>BUILT</p>
-                <span>2025</span>
-              </li>
-              <li>
-                <p>GUESTS</p>
-                <span>10 in 5 cabins</span>
-              </li>
-              <li>
-                <p>PRICE</p>
-                <span>€23,210,000</span>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/img yaht 3.webp"
-              alt="img yaht 3"
-              width="345"
-              height="268"
-            />
-            <h3>BBELLE ANNA</h3>
-            <p>LUXURY YAHTS</p>
-            <ul>
-              <li>
-                <p>LENGTH</p>
-                <span>50m(155ft)</span>
-              </li>
-              <li>
-                <p>SHIPYARD</p>
-                <span>ISA</span>
-              </li>
-              <li>
-                <p>BUILT</p>
-                <span>2012</span>
-              </li>
-              <li>
-                <p>GUESTS</p>
-                <span>12 in 6 cabins</span>
-              </li>
-              <li>
-                <p>PRICE</p>
-                <span>€21,000,000</span>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <a href="Yacht rental">Yacht rental</a>
+      <section id="yachts" class="yachts">
+        <div class="container">
+          <h2 class="yachts-title">Choose your dream yacht and sail away into the sunset</h2>
+          <ul class="yachts-list">
+            <li class="yachts-list-item">
+              <img
+                src="./images/img yaht 1.webp"
+                alt="img yaht 1"
+                width="345"
+                height="268"
+                class="yachts-img"
+              />
+              <h3 class="yachts-list-title">Arrow</h3>
+              <p class="yachts-list-category">LUXURY YAHTS</p>
+              <ul class="yachts-tadle">
+                <li>
+                  <p class="yachts-tadle-category">LENGTH</p>
+                  <span class="yachts-tadle-value">48m(155ft) </span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">BUILDER</p>
+                  <span class="yachts-tadle-value">Admiral</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">BUILT</p>
+                  <span class="yachts-tadle-value">2021</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">GUESTS</p>
+                  <span class="yachts-tadle-value">11 in 5 cabins</span>
+                </li>
+                <li>
+                  <p>PRICE</p>
+                  <span class="yachts-tadle-value">€33,500,000</span>
+                </li>
+              </ul>
+            </li>
+            <li class="yachts-list-item">
+              <img
+                src="./images/img yaht 2.webp"
+                alt="img yaht 2"
+                width="345"
+                height="268"
+                class="yachts-img"
+              />
+              <h3 class="yachts-list-title">BENETTI OASIS 40M BO122</h3>
+              <p class="yachts-list-category">LUXURY YAHTS</p>
+              <ul class="yachts-tadle">
+                <li>
+                  <p class="yachts-tadle-category">LENGTH</p>
+                  <span class="yachts-tadle-value">41m (133ft)</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">SHIPYARD</p>
+                  <span class="yachts-tadle-value">Benetti</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">BUILT</p>
+                  <span class="yachts-tadle-value">2025</span>
+                </li>
+                <li>
+                  <p>GUESTS</p>
+                  <span class="yachts-tadle-value">10 in 5 cabins</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">PRICE</p>
+                  <span class="yachts-tadle-value">€23,210,000</span>
+                </li>
+              </ul>
+            </li>
+            <li class="yachts-list-item">
+              <img
+                src="./images/img yaht 3.webp"
+                alt="img yaht 3"
+                width="345"
+                height="268"
+                class="yachts-img"
+              />
+              <h3 class="yachts-list-title">BBELLE ANNA</h3>
+              <p class="yachts-list-category">LUXURY YAHTS</p>
+              <ul class="yachts-tadle">
+                <li>
+                  <p class="yachts-tadle-category">LENGTH</p>
+                  <span class="yachts-tadle-value">50m(155ft)</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">SHIPYARD</p>
+                  <span class="yachts-tadle-value">ISA</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">BUILT</p>
+                  <span class="yachts-tadle-value">2012</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">GUESTS</p>
+                  <span class="yachts-tadle-value">12 in 6 cabins</span>
+                </li>
+                <li>
+                  <p class="yachts-tadle-category">PRICE</p>
+                  <span class="yachts-tadle-value">€21,000,000</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="Yacht rental">Yacht rental</a>
+        </div>
       </section>
 
       <section id="about-us">
