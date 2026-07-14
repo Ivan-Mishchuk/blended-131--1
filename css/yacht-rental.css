@@ -1,0 +1,45 @@
+.yachts-rental {
+border-radius: 24px;
+max-width: 1180px;
+/* height: 675px; */
+background: #fbfbfb;
+display: flex;
+position: relative;
+
+}
+
+.yachts-rental-title {
+    font-weight: 500;
+font-size: 48px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #1b414b;
+}
+
+.yachts-rental-descr {
+    
+
+}
+
+.yachts-rental-subtitle {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.yachts-rental-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+/* .yachts-rental-photo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;} */

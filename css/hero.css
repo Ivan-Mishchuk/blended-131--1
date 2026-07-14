@@ -1,5 +1,10 @@
 .hero {
     padding: 235px 0 180px;
+    background-color: #0E1823;
+    background-image: url(../images/background-yaht.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-container {
