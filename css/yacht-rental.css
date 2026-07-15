@@ -1,23 +1,37 @@
 .yachts-rental {
-border-radius: 24px;
-max-width: 1180px;
-/* height: 675px; */
-background: #fbfbfb;
-display: flex;
-position: relative;
+    /* padding: 75px 0; */
+    
+}
 
+.container {;
+}
+
+.yachts-rental-card {
+    background: #fbfbfb;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 50px;
+    width: 1180px;
+    
+}
+
+.yachts-rental-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .yachts-rental-title {
     font-weight: 500;
-font-size: 48px;
-line-height: 1;
-letter-spacing: -0.02em;
-color: #1b414b;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    max-width: 537px;
 }
 
 .yachts-rental-descr {
-    
+    max-width: 354px;
 
 }
 
@@ -27,6 +41,7 @@ color: #1b414b;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #1b414b;
+    margin-bottom: 20px;
 }
 
 .yachts-rental-text {
@@ -38,8 +53,11 @@ color: #1b414b;
     opacity: 0.4;
 }
 
-/* .yachts-rental-photo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -100px;} */
+.yachts-rental-photo {
+    position: relative;
+    right: 50px;
+    top: 105px;
+    /* display: block;
+        width: 100%;
+        height: auto; */
+}
