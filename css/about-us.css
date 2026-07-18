@@ -3,8 +3,7 @@
     /* max-width: 1180px; */
 }
 
-.about-us .container {
-    
+.container {
 }
 
 .about-us-content {
@@ -39,8 +38,11 @@
         line-height: 1;
         letter-spacing: -0.05em;
         color: #fbfbfb;
-        padding-bottom: 38px;
+        /* padding-bottom: 38px; */
         display: block;
+        padding-bottom: 18px;
+        border-bottom: 2px solid rgba(251, 251, 251, 0.1);
+        margin-bottom: 18px;
 }
 
 .about-us-text {
@@ -50,6 +52,7 @@
         letter-spacing: -0.02em;
         color: #fbfbfb;
         opacity: 0.8;
+        
 }
 
 

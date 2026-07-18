@@ -70,12 +70,12 @@
     align-items: center;
 }
 
-.yachts-tadle-category {
+.yachts-table-category {
     color: rgba(4, 3, 6, 0.4);
     font-size: 13px;
 }
 
-.yachts-tadle-value {
+.yachts-table-value {
     color: #040306;
     font-size: 13px;
 }
