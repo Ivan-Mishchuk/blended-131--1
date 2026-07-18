@@ -5,58 +5,30 @@
     <title>Box Model</title>
     <link rel="stylesheet" href="./test.css" />
   </head>
-  <body>
-    <!-- <h1 class="title">Our Team</h1>
-    <ul class="gallery">
-      <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="https://images.pexels.com/photos/5214959/pexels-photo-5214959.jpeg"
-          alt="Dr. Sarah Bennett"
-        />
-        <div class="overlay">
-          <p class="overlay-text">
-            Dr. Sarah Bennett — Orthodontist with 10 years of experience.
-          </p>
-        </div>
-      </li>
-      <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
-          alt="Dr. James Carter"
-        />
-        <div class="overlay">
-          <p class="overlay-text">
-            Dr. James Carter — Specialist in dental implants and surgery.
-          </p>
-        </div>
-      </li>
-      <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg"
-          alt="Dr. Emily Ross"
-        />
-        <div class="overlay">
-          <p class="overlay-text">
-            Dr. Emily Ross — Expert in cosmetic dentistry and whitening.
-          </p>
-        </div>
-      </li>
-    </ul> -->
 
+  <body>
     <form class="form">
       <label class="form-label">
-        Your name
-        <input type="text" name="username" class="form-inputinput" />
+        Email
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          placeholder="example@email.com"
+          required
+        />
       </label>
+      <!-- Додай поле для повідомлення -->
       <label class="form-label">
-        Topic
-        <input type="text" name="topic" class="form-inputinput" />
+        Comment
+        <textarea
+          class="form-textarea"
+          name="coment"
+          rows="10"
+          placeholder="Enter your messenge"
+        ></textarea>
       </label>
-
-      <button tupe="submit" class="form-button">Submit issue</button>
+      <button class="form-button" type="submit">Send message</button>
     </form>
   </body>
 </html>

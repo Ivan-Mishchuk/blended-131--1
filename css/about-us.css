@@ -1,0 +1,117 @@
+ .about-us {
+    padding: 150px 0;
+    /* max-width: 1180px; */
+}
+
+.about-us .container {
+    
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 32px;
+    /* background-color: #1b414b; */
+    max-width: 1180px;
+}
+
+.about-us-list {
+    display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 44px;
+        background: #1b414b;
+        padding: 90px 50px;
+        border-radius: 24px;
+    
+}
+
+.about-us-item {
+    width: 280px;
+}
+
+.about-us-number {
+    font-weight: 500;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.05em;
+        color: #fbfbfb;
+        padding-bottom: 38px;
+        display: block;
+}
+
+.about-us-text {
+    font-weight: 400;
+        font-size: 13px;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        opacity: 0.8;
+}
+
+
+/* .about-us {
+    padding: 75px 0;
+} */
+
+/* .about-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 32px;
+} */
+
+/* .about-us-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44px 32px;
+
+    width: 720px;
+
+    background: #1b414b;
+    border-radius: 24px;
+    padding: 90px 50px;
+    margin: 0;
+}
+
+.about-us-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-number {
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fbfbfb;
+}
+
+.about-us-number::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background: rgba(251, 251, 251, 0.15);
+}
+
+.about-us-text {
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(251, 251, 251, 0.8);
+    margin: 0;
+}
+
+.about-us-content img {
+    display: block;
+    width: 432px;
+    height: 424px;
+    object-fit: cover;
+    border-radius: 24px;
+} */
